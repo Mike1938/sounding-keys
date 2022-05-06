@@ -1,0 +1,38 @@
+body, html{
+    margin: 0;
+    height: 100%;
+    font-family: 'Epilogue', sans-serif;
+}
+#root{
+    height: 100%;
+}
+.cont{
+    height: 100%;
+}
+
+
+.landingPage{
+    height: 100%;
+    background-color: #5F5F5F;
+}
+.navColors{
+    background-color: #FC7C7C;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    margin: 50px;
+    height: 100%;
+    color: #fff;
+}
+.title img{
+    width: 40%;
+}
+.titleInfo h1{
+    font-size: 4rem;
+}
+.titleInfo{
+    width: 40%;
+    margin: 0 auto;
+}
