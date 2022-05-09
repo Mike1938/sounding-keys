@@ -9,14 +9,42 @@ body, html{
 .cont{
     height: 100%;
 }
-
-
-.landingPage{
+.homeCont{
+    height: 100%;
+}
+.productInfo{
     height: 100%;
     background-color: #5F5F5F;
 }
-.navColors{
-    background-color: #FC7C7C;
+
+.landingPage{
+    height: 100%;
+    background-image: url("/public/images/landing.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navCont{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background: rgb(252,124,124);
+    background: linear-gradient(90deg, rgba(252,124,124,1) 0%, rgba(253,190,190,1) 100%);
+}
+.navCont p{
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+.navLinks a{
+    text-decoration: none;
+    color: #5F5F5F;
+    font-size: 1.1rem;
+}
+.navLinks a:hover{
+    color: #000000;
+}
+.brandName{
+    font-size: 1.5rem;
 }
 .title{
     display: flex;
@@ -30,7 +58,8 @@ body, html{
     width: 40%;
 }
 .titleInfo h1{
-    font-size: 4rem;
+    font-size: 6rem;
+    font-weight: 300;
 }
 .titleInfo{
     width: 40%;
