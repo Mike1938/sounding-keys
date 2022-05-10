@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./components/Nav";
+import { Link } from "react-router-dom";
 
 const Home = ()=>{
     return(
@@ -10,14 +11,14 @@ const Home = ()=>{
                 <div className="title">
                     <div className="titleInfo">
                         <h1>Sounding Keys</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                            Ratione ab aperiam unde ipsum sapiente? Iusto repudiandae temporibus distinctio sapiente ullam !</p>
+                        <p className="slogan">Making your love for music portable</p>
+                        <Link to="/about"><button className="learnButton">Learn More</button></Link>        
                     </div>
                     <img src="../images/compose.svg"/>
                 </div>
             </div>
             <div className="productInfo">
-                <h1>Hello this is product info</h1>
+                <h2 className="landAbout">Bringing portabality  and music together</h2>
             </div>
         </div>
     )

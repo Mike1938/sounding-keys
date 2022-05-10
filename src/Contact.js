@@ -1,12 +1,13 @@
 import Nav from "./components/Nav";
 
-const About = ()=>{
+const Contact = ()=>{
     return(
         <div>
             <Nav/>
-            <h1>About page</h1>
+            <h1>Hola</h1>
         </div>
-    )
+    )   
 }
 
-export default About
+export default Contact;
+
