@@ -18,7 +18,7 @@ const Home = ()=>{
                 </div>
             </div>
             <div className="productInfo">
-                <h2 className="landAbout">Bringing portabality  and music together</h2>
+                <h2 className="landAbout">Bringing portabality and music together</h2>
             </div>
         </div>
     )
