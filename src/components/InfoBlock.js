@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-import data from "../data"
 
 const InfoBlock = ({title, text, imgOne, imgTwo, imgThree})=>{
 

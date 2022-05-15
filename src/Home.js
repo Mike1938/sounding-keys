@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./components/Nav";
 import { Link } from "react-router-dom";
-
+import Footer from "./components/Footer";
 const Home = ()=>{
     return(
         <div className="homeCont">
@@ -18,10 +18,12 @@ const Home = ()=>{
                 </div>
             </div>
             <div className="productInfo">
-                <h2 className="landAbout">Bringing portabality and music together</h2>
+                <h2 className="landAbout">Michael why you do this</h2>
             </div>
+            <Footer/>
         </div>
     )
 }
+// Bringing portabality and music together
 
 export default Home;

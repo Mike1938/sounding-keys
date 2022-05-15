@@ -1,5 +1,6 @@
 import Nav from "./components/Nav";
 import InfoBlock from "./components/InfoBlock";
+import Footer from "./components/Footer";
 
 const About = ()=>{
     return(
@@ -23,6 +24,7 @@ const About = ()=>{
                     imgThree="https://images.unsplash.com/photo-1642801454278-c064dd4bfdd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
                 />
             </div>
+            <Footer/>
         </div>
     )
 }
