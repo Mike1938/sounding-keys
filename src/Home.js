@@ -30,7 +30,7 @@ const Home = ()=>{
                 <InfoBlock
                     title="Closer and Closer to the reveal date"
                     imgOne="./images/Post1.png"
-                    imgTwo="./images/Post2.png"
+                    imgTwo="./images/post2.png"
                     imgThree="./images/sketchDesign.png"
                 />
             </div>
