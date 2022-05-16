@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./components/Nav";
 import { Link } from "react-router-dom";
 import Footer from "./components/Footer";
+import InfoBlock from "./components/InfoBlock";
 const Home = ()=>{
     return(
         <div className="homeCont">
@@ -18,7 +19,10 @@ const Home = ()=>{
                 </div>
             </div>
             <div className="productInfo">
-                <h2 className="landAbout">Michael why you do this</h2>
+                <InfoBlock
+                title="Bringing portability and music together"
+                imgONe=""
+                />
             </div>
             <Footer/>
         </div>

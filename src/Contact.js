@@ -1,5 +1,6 @@
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
+import {FaInstagram} from "react-icons/fa"
 
 const Contact = ()=>{
     return(
@@ -20,8 +21,15 @@ const Contact = ()=>{
                 </form>
                 
             </div>
-            <div>
-                <h2>Contact Info</h2>
+            <div className="contactInfo">
+                <h2 className="formTitle">Contact Info</h2>
+                <p className="labelStyles">Phone Number</p>
+                <p className="infoText">1-800-3849</p>
+                <p className="labelStyles">Email</p>
+                <p className="infoText">soundingKeys@gmail.com</p>
+                <h2 className="formTitle">Socials</h2>
+                <p className="labelStyles">instagram</p>
+                <a className="social" href="https://www.instagram.com/sounding_keys/"><FaInstagram size="50"/></a>
             </div>
             <Footer/>
         </div>
