@@ -15,7 +15,7 @@ const Home = ()=>{
                         <p className="slogan">Making your love for music portable</p>
                         <Link to="/about"><button className="learnButton">Learn More</button></Link>        
                     </div>
-                    <img src="../images/compose.svg"/>
+                    <img src="./images/compose.svg"/>
                 </div>
             </div>
             <div className="productInfo">
@@ -29,9 +29,9 @@ const Home = ()=>{
             <div className="reveal">
                 <InfoBlock
                     title="Closer and Closer to the reveal date"
-                    imgOne="../images/Post1.png"
-                    imgTwo="../images/Post2.png"
-                    imgThree="../images/sketchDesign.png"
+                    imgOne="./images/Post1.png"
+                    imgTwo="./images/Post2.png"
+                    imgThree="./images/sketchDesign.png"
                 />
             </div>
             <div className="newsLetter">
