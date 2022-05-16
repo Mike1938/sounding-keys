@@ -14,7 +14,6 @@ body, html{
 }
 .productInfo{
     height: 100%;
-    background-color: #5F5F5F;
 }
 
 .landingPage{
@@ -48,6 +47,8 @@ body, html{
 .brandName{
     font-size: 1.5rem;
 }
+
+/* Landing page styles */
 .title{
     display: flex;
     justify-content: space-around;
@@ -86,7 +87,54 @@ body, html{
     width: 40%;
     margin: 0 auto;
 }
-
+.productInfo .blockInfo:nth-of-type(1){
+    background-color: #5F5F5F;
+}
+.homeCont .blockInfo{
+    background-color: rgb(248, 170, 170);
+    height: 100%;
+}
+.reveal{
+    height: 100%;
+}
+.newsLetter{
+    height: 400px;
+    background-image: url("../public/images/contactBg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.newsLetter form{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #FFFBFB;
+    border-radius: 10px;
+    box-shadow: 10px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.newsLetter button{
+    margin: 30px auto;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: #FC7C7C;
+    color: #FFFBFB;
+    height: 40px;
+    border-radius: 8px;
+    transition: all ease-in 200ms;
+}
+.newsLetter button:hover{
+    background-color: rgb(248, 170, 170);
+}
+.reveal .imgCont{
+    order: 2;
+    width: 40%;
+}
 .blockInfo, .aboutSec{
     height: 100%;
     background-color: #5F5F5F;
@@ -126,6 +174,9 @@ body, html{
 .blockInfo:nth-of-type(2){
     background-color: rgb(248, 170, 170);
 }
+
+
+/* Footer styles */
 .footerCont{
     background-color: #FC7C7C;
     color: #FFFBFB;
@@ -168,6 +219,7 @@ hr{
     font-size: .8rem;
     margin: 10px 0;
 }
+
 /* Contact styles */
 
 .contactCont{
@@ -194,7 +246,7 @@ hr{
     border-radius: 10px;
     box-shadow: 10px 2px 10px rgba(0, 0, 0, 0.2);
 }
-.contactForm input{
+.contactForm input, .newsLetter input{
     outline: none;
     border: none;
     background-color: #FC7C7C;
